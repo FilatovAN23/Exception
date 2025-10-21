@@ -2,7 +2,7 @@ public class MyDate {
     int day, months, year;
 
     MyDate(int day, int months, int year)throws MyException{
-        if(day>31||months>12||year<0||day<0||months<0) throw new MyException("Дата введене не корректно",day,months,year);
+        if(day>31||months>12||year<0||day<0||months<0) throw new MyException("Дата введена некорректно",day,months,year);
         this.day=day;
         this.months=months;
         this.year=year;
